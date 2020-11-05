@@ -1,0 +1,148 @@
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::: Zotero :::::::::::::::::::::::::::::::::::::::::::::::::::
+
+* {border: 0 !important; }
+/*change background color and text color of zotero toolbar and menubar*/
+#zotero-tb, #zotero-toolbar, #navigator-toolbox { background: #323234 !important;
+color: #FFFFFF !important; }
+#zotero-toolbar {border-bottom: 1px solid #1d1d1d !important;}
+/*change color of menu items to white*/
+#navigator-toolbox menu { color: white !important }
+
+/*change color of menu items in drop down menus back to black*/
+#manage-attachments-menu label, #developer-menu label, #layout-menu label, #note-font-size-menu label, #font-size-menu label, #debug-output-menu label, #new-item label { color: black !important; }
+/*NOT WORKING
+
+#navigator-toolbox menu:first-child { color: black !important }
+#new-menu { color: black !important;
+}
+*/
+
+#zotero-splitter{ background: #323234 !important; }
+
+#zotero-pane{ background: #323234 !important;
+color: #aaa !important; }
+grippy{ opacity: .5 !important; }
+
+#heading_wrapper {
+  color: #fff;
+  background-color: #7E7E7E !important;
+}
+
+/*change background and color of collections and items panes*/
+treechildren{ background: #323234 !important;
+color: #FFFFFF !important; }
+/*increase spacing between rows in collections and items*/
+#zotero-collections-tree treechildren::-moz-tree-row { height: 30px !important; }
+
+/*change background and color of collections when hovering*/
+#zotero-collections-tree treechildren::-moz-tree-row(hover) { background: #7E7E7E !important;
+color: #FFFFFF !important; border: 0 !important; }
+
+/*increase spacing between rows in collections and items*/
+#zotero-items-tree treechildren::-moz-tree-row { height: 30px !important; }
+
+/*change background and color of items when hovering*/
+#zotero-items-tree treechildren::-moz-tree-row(hover) { background: #7E7E7E !important;
+color: #FFFFFF !important; border: 0 !important; }
+
+/*change background and color of items when selecting*/
+#zotero-items-tree treechildren::-moz-tree-row(selected) { background: #474749 !important;
+color: #FFFFFF !important; border: 0 !important; }
+#zotero-items-tree treechildren::-moz-tree-cell-text(selected) {
+	color: #FFFFFF !important; border: 0 !important; }
+
+/*change background and color of columns field selector*/
+#zotero-items-tree treecol, .treecol-image { -moz-appearance: none !important;
+  background: #474749 !important;
+color: #FFFFFF !important;
+border-bottom: 1px solid #1d1d1d !important;
+border-right: 1px solid #1d1d1d !important; }
+
+/*tabs in Preferences dialog*/
+tabpanel { color: black !important;
+background: #7E7E7E !important; }
+
+tab[selected="true"]{ color: black !important;
+background: white !important; }
+
+tab{ -moz-appearance: none !important;
+color: #eee !important;
+background: #474749 !important;
+border-top: 0px solid #0a84ff !important;
+border-left: 0px solid rgba(127,127,127,0.2) !important;
+border-right: 1px solid #1d1d1d !important;
+border-radius: 0px !important;
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important; }
+
+tab:hover{ color: black !important;
+background: #E0E8F6 !important;
+box-shadow: inset 0px 0px 0px !important;
+border-radius: 0px 0px 0 0 !important; }
+
+/*tabs in Item pane*/
+#zotero-item-pane-content tabpanel { background: #474749 !important;
+color: #FFFFFF !important; }
+
+#zotero-item-pane-content tab[selected="true"]{ background: #474749 !important;
+border-top: 3px solid #0a84ff !important;}
+
+#zotero-item-pane-content tab{ -moz-appearance: none !important;
+color: #eee !important;
+background: #323234 !important;
+border-top: 0px solid #0a84ff !important;
+border-left: 0px solid rgba(127,127,127,0.2) !important;
+border-right: 1px solid #1d1d1d !important;
+border-radius: 0px !important;
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important; }
+
+#zotero-item-pane-content tab:hover{ color: #FFFFFF !important;
+background: #7E7E7E !important;
+box-shadow: inset 0px 0px 0px !important;
+border-radius: 0px 0px 0 0 !important; }
+
+/*define color of item type field*/
+#item-type-menu
+{
+	-moz-appearance: none;
+	color: white !important;
+	height: 1.5em !important;
+	min-height: 1.5em !important;
+	padding: 0 0 0 2px !important;
+	margin: 1px 5px 0 1px !important;
+	max-height: 1.5em !important;
+	border: 1px solid transparent;
+	background-color: transparent;
+}
+/*define color of date-field-status*/
+#zotero-date-field-status
+{
+	color: #ffffff !important;
+	padding: 0 10px 0 1px !important;
+}
+
+/*preferences dialog*/
+#zotero-prefpane-general, #zotero-prefpane-sync, #zotero-prefpane-export, #zotero-prefpane-advanced-keys-tab, #wordProcessors, #zotero-quickCopy-format, #sync-reset-form { color: black !important;
+background: #7E7E7E !important; }
+#zotero-prefpane-general title { background: #474749 !important;
+color: #FFFFFF !important; }
+
+prefwindow { color: black !important;
+background: #7E7E7E !important; }
+
+prefwindow .chromeclass-toolbar { color: #FFFFFF !important;
+background: #323234 !important; }
+
+/*about dialog*/
+#aboutcontent
+{	background: #474749 !important;
+  color: white !important;
+	padding: 10px; }
+
+#version
+{	color: white !important; }
+
+/*advanced search dialog*/
+#zotero-advanced-search-dialog #zotero-search-box-controls {	color: black !important;
+background: #7E7E7E !important; }
