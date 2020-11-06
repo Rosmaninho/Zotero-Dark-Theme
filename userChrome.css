@@ -6,7 +6,7 @@
 color: #FFFFFF !important; }
 #zotero-toolbar {border-bottom: 1px solid #1d1d1d !important;}
 /*change color of menu items to white*/
-#navigator-toolbox menu { color: white !important }
+#navigator-toolbox menu { color: white !important; }
 
 /*change color of menu items in drop down menus back to black*/
 #manage-attachments-menu label, #developer-menu label, #layout-menu label, #note-font-size-menu label, #font-size-menu label, #debug-output-menu label, #new-item label { color: black !important; }
