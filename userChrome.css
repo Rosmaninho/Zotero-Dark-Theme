@@ -6,7 +6,7 @@
 color: #FFFFFF !important; }
 #zotero-toolbar {border-bottom: 1px solid #1d1d1d !important;}
 /*change color of menu items to white*/
-#navigator-toolbox menu { color: white !important; }
+#navigator-toolbox menu { color: white !important }
 
 /*change color of menu items in drop down menus back to black*/
 #manage-attachments-menu label, #developer-menu label, #layout-menu label, #note-font-size-menu label, #font-size-menu label, #debug-output-menu label, #new-item label { color: black !important; }
@@ -31,7 +31,8 @@ grippy{ opacity: .5 !important; }
 /*change background and color of collections and items panes*/
 treechildren{ background: #323234 !important;
 color: #FFFFFF !important; }
-/*increase spacing between rows in collections and items*/
+/*increase spacing between rows in collections and items and add a border to separate panes*/
+/*#zotero-collections-tree { border-right: 1px solid #1d1d1d !important; } */
 #zotero-collections-tree treechildren::-moz-tree-row { height: 30px !important; }
 
 /*change background and color of collections when hovering*/
@@ -40,25 +41,31 @@ color: #FFFFFF !important; border: 0 !important; }
 
 /*increase spacing between rows in collections and items*/
 #zotero-items-tree treechildren::-moz-tree-row { height: 30px !important; }
-
+/*#zotero-items-tree { background-color: #474749 !important; border-right: 1px solid #1d1d1d !important; }*/
 /*change background and color of items when hovering*/
 #zotero-items-tree treechildren::-moz-tree-row(hover) { background: #7E7E7E !important;
 color: #FFFFFF !important; border: 0 !important; }
 
 /*change background and color of items when selecting*/
 #zotero-items-tree treechildren::-moz-tree-row(selected) { background: #474749 !important;
-color: #FFFFFF !important; border: 0 !important; }
+color: #FFFFFF !important; border: 0 !important;
+border-bottom: 1px solid #1d1d1d !important; }
 #zotero-items-tree treechildren::-moz-tree-cell-text(selected) {
 	color: #FFFFFF !important; border: 0 !important; }
 
 /*change background and color of columns field selector*/
-#zotero-items-tree treecol, .treecol-image { -moz-appearance: none !important;
+#zotero-items-tree treecol { -moz-appearance: none !important;
   background: #474749 !important;
 color: #FFFFFF !important;
 border-bottom: 1px solid #1d1d1d !important;
 border-right: 1px solid #1d1d1d !important; }
 
-/*tabs in Preferences dialog*/
+.treecol-image { -moz-appearance: none !important;
+  background: #474749 !important;
+color: #FFFFFF !important;
+border-bottom: 1px solid #1d1d1d !important; }
+
+/*tabs in Preferences dialog - well more like all the tabs except the ones I'll specify later*/
 tabpanel { color: black !important;
 background: #7E7E7E !important; }
 
@@ -68,8 +75,8 @@ background: white !important; }
 tab{ -moz-appearance: none !important;
 color: #eee !important;
 background: #474749 !important;
-border-top: 0px solid #0a84ff !important;
-border-left: 0px solid rgba(127,127,127,0.2) !important;
+border-top: 0px solid black !important;
+border-left: 0px solid black !important;
 border-right: 1px solid #1d1d1d !important;
 border-radius: 0px !important;
 border-bottom-left-radius: 0px !important;
@@ -79,6 +86,20 @@ tab:hover{ color: black !important;
 background: #E0E8F6 !important;
 box-shadow: inset 0px 0px 0px !important;
 border-radius: 0px 0px 0 0 !important; }
+
+/*change items in item pane besides tabs*/
+#zotero-duplicates-merge-pane > groupbox > .groupbox-body { background: #323234 !important;
+  color: #FFFFFF !important;
+  border: 0 !important; }
+
+/*#zotero-item-pane-content > groupbox { border: 0 !important; background: #323234 !important;
+color: #FFFFFF !important; }*/
+
+#zotero-item-pane-content > groupbox > .groupbox-body { border: 0 !important; background: #323234 !important;
+color: #FFFFFF !important; }
+
+/*change color of retraction details background*/
+#retraction-details { background: #7f0000 !important; }
 
 /*tabs in Item pane*/
 #zotero-item-pane-content tabpanel { background: #474749 !important;
