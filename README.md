@@ -6,6 +6,9 @@ Created for Zotero 5.0.92. Windows 10 compatible. Mac patch compatible with macO
 <p align="center">
 <img src="https://github.com/Rosmaninho/Zotero-Dark-Theme/blob/main/Zotero_dark_theme.png"  width="600" height="333" />
 </p>
+<p align="center">
+<img src="https://github.com/quin-q/Zotero-Dark-Theme/blob/mac-patch/mac%20edit.png"  width="600" height="333" />
+</p>
 
 To use it follow the following steps:
 
