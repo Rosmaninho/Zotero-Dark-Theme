@@ -1,7 +1,7 @@
 # Zotero-Dark-Theme
-userChrome.css file for a Zotero dark theme. Suggestions for improvements are welcome.
+userChrome.css file for a Zotero dark theme. Suggestions for improvements are welcome. 
 
-Created for Zotero 5.0.92. Windows 10 compatible. Cannot vouch for other OSes.
+Created for Zotero 5.0.92. Windows 10 compatible. Mac patch compatible with macOS Catalina.
 
 <p align="center">
 <img src="https://github.com/Rosmaninho/Zotero-Dark-Theme/blob/main/Zotero_dark_theme.png"  width="600" height="333" />
@@ -10,6 +10,7 @@ Created for Zotero 5.0.92. Windows 10 compatible. Cannot vouch for other OSes.
 To use it follow the following steps:
 
 1 - Go to your user Profile folder - C:\Users\User_name\AppData\Roaming\Zotero\Zotero\Profiles\user_profile.default\
+                                   mac: /Users/username/Library/Application Support/Zotero/Profiles/letters.default
 
 2 - Create a chrome folder,
 
