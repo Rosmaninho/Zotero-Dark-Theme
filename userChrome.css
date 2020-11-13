@@ -33,7 +33,6 @@ treechildren{ background: #323234 !important;
 color: #FFFFFF !important; }
 
 /*increase spacing between rows in collections and items and add a border to separate panes*/
-
 /*#zotero-collections-tree { border-right: 1px solid #1d1d1d !important; } */
 #zotero-collections-tree treechildren::-moz-tree-row { height: 30px !important; }
 
@@ -49,7 +48,6 @@ border-bottom: 1px solid #1d1d1d !important; }
 
 /*increase spacing between rows in collections and items*/
 #zotero-items-tree treechildren::-moz-tree-row { height: 30px !important; }
-
 /*#zotero-items-tree { background-color: #474749 !important; border-right: 1px solid #1d1d1d !important; }*/
 
 /*change background and color of items when hovering*/
@@ -60,8 +58,7 @@ color: #FFFFFF !important; border: 0 !important; }
 #zotero-items-tree treechildren::-moz-tree-row(selected) { background: #474749 !important;
 color: #FFFFFF !important; border: 0 !important;
 border-bottom: 1px solid #1d1d1d !important; }
-#zotero-items-tree treechildren::-moz-tree-cell-text(selected) {
-	color: #FFFFFF !important; border: 0 !important; }
+#zotero-items-tree treechildren::-moz-tree-cell-text(selected) { color: #FFFFFF !important; border: 0 !important; }
 
 /*change background and color of columns field selector*/
 #zotero-items-tree treecol { -moz-appearance: none !important;
@@ -74,6 +71,35 @@ border-right: 1px solid #1d1d1d !important; }
   background: #474749 !important;
 color: #FFFFFF !important;
 border-bottom: 1px solid #1d1d1d !important; }
+
+/*Change color of tags (clicky items) */
+#zotero-pane .zotero-clicky { color: black !important; }
+
+/*Change color of fields in item pane (clicky items) */
+#zotero-item-pane-content .zotero-clicky { color: white !important; }
+
+#zotero-item-pane-content .zotero-clicky:hover
+{	color: black !important;
+}
+
+/*Correct Minus and plus clicky buttons */
+#zotero-item-pane-content .zotero-clicky-minus {
+	color: transparent !important;
+	padding: 0 !important;
+	margin: 0 5px 0 0 !important;
+	width: 18px;
+	height: 18px;
+}
+#zotero-item-pane-content .zotero-clicky-minus:hover { color: transparent !important; }
+
+#zotero-item-pane-content .zotero-clicky-plus {
+	color: transparent !important;
+	padding: 0 !important;
+	margin: 0 5px 0 0 !important;
+	width: 18px;
+	height: 18px;
+}
+#zotero-item-pane-content .zotero-clicky-plus:hover { color: transparent !important; }
 
 /*tabs in Preferences dialog - well more like all the tabs except the ones I'll specify later*/
 tabpanel { color: black !important;
