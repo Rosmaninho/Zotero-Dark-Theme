@@ -22,8 +22,6 @@ I  encourage everyone to play around with this and try to improve on it and them
 
 1 -  couldn't theme the scrollbars (even tried creating a userContent.css  like in Firefox but it didn't work), 
 
-2 - the tag box and tag text color,
-
 3 - the  menus colors,
 
 4 - the New Item sub-menu in the File drop down menu (it assumes the white color of the menu categories),
