@@ -19,8 +19,8 @@ color: #FFFFFF !important; }
 
 #zotero-splitter{ background: #323234 !important; }
 
-#zotero-pane{ background: #323234 !important;
-color: #aaa !important; }
+#zotero-pane{ background: #7E7E7E !important;
+color: #323234 !important; }
 grippy{ opacity: .5 !important; }
 
 #heading_wrapper {
@@ -31,6 +31,8 @@ grippy{ opacity: .5 !important; }
 /*change background and color of collections and items panes*/
 treechildren{ background: #323234 !important;
 color: #FFFFFF !important; }
+
+
 /*increase spacing between rows in collections and items and add a border to separate panes*/
 /*#zotero-collections-tree { border-right: 1px solid #1d1d1d !important; } */
 #zotero-collections-tree treechildren::-moz-tree-row { height: 30px !important; }
@@ -41,28 +43,40 @@ color: #FFFFFF !important; border: 0 !important; }
 
 /*increase spacing between rows in collections and items*/
 #zotero-items-tree treechildren::-moz-tree-row { height: 30px !important; }
-/*#zotero-items-tree { background-color: #474749 !important; border-right: 1px solid #1d1d1d !important; }*/
+/*#zotero-items-tree { background-color: #474749 !important; border-right: 0px solid #1d1d1d !important; }*/
+
+/*change background colour of odd rows*/
+#zotero-items-tree treechildren::-moz-tree-row(odd) { background: #4b4b4e !important;
+color: #FFFFFF !important; border: 0 !important; }
+
+/*change background colour of even rows*/
+#zotero-items-tree treechildren::-moz-tree-row(even) { background: #3a3a3c !important;
+color: #FFFFFF !important; border: 0 !important; }
+
 /*change background and color of items when hovering*/
 #zotero-items-tree treechildren::-moz-tree-row(hover) { background: #7E7E7E !important;
 color: #FFFFFF !important; border: 0 !important; }
 
+
 /*change background and color of items when selecting*/
-#zotero-items-tree treechildren::-moz-tree-row(selected) { background: #474749 !important;
+#zotero-items-tree treechildren::-moz-tree-row(selected) { background: #23233a !important;
 color: #FFFFFF !important; border: 0 !important;
-border-bottom: 1px solid #1d1d1d !important; }
+border-bottom: 0px solid #1d1d1d !important; }
 #zotero-items-tree treechildren::-moz-tree-cell-text(selected) {
 	color: #FFFFFF !important; border: 0 !important; }
+
+
 
 /*change background and color of columns field selector*/
 #zotero-items-tree treecol { -moz-appearance: none !important;
   background: #474749 !important;
-color: #FFFFFF !important;
+color: #f7f7f7 !important;
 border-bottom: 1px solid #1d1d1d !important;
 border-right: 1px solid #1d1d1d !important; }
 
 .treecol-image { -moz-appearance: none !important;
   background: #474749 !important;
-color: #FFFFFF !important;
+color: #f7f7f7 !important;
 border-bottom: 1px solid #1d1d1d !important; }
 
 /*tabs in Preferences dialog - well more like all the tabs except the ones I'll specify later*/
@@ -70,7 +84,7 @@ tabpanel { color: black !important;
 background: #7E7E7E !important; }
 
 tab[selected="true"]{ color: black !important;
-background: white !important; }
+background: #7f0000 !important; }
 
 tab{ -moz-appearance: none !important;
 color: #eee !important;
@@ -88,7 +102,7 @@ box-shadow: inset 0px 0px 0px !important;
 border-radius: 0px 0px 0 0 !important; }
 
 /*change items in item pane besides tabs*/
-#zotero-duplicates-merge-pane > groupbox > .groupbox-body { background: #323234 !important;
+#zotero-duplicates-merge-pane > groupbox > .groupbox-body { background: #7E7E7E !important;
   color: #FFFFFF !important;
   border: 0 !important; }
 
@@ -102,7 +116,7 @@ color: #FFFFFF !important; }
 #retraction-details { background: #7f0000 !important; }
 
 /*tabs in Item pane*/
-#zotero-item-pane-content tabpanel { background: #474749 !important;
+#zotero-item-pane-content tabpanel { background: #3f3f41 !important;
 color: #FFFFFF !important; }
 
 #zotero-item-pane-content tab[selected="true"]{ background: #474749 !important;
@@ -119,7 +133,7 @@ border-bottom-left-radius: 0px !important;
 border-bottom-right-radius: 0px !important; }
 
 #zotero-item-pane-content tab:hover{ color: #FFFFFF !important;
-background: #7E7E7E !important;
+background: #323234 !important;
 box-shadow: inset 0px 0px 0px !important;
 border-radius: 0px 0px 0 0 !important; }
 
