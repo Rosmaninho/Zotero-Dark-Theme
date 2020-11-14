@@ -1,6 +1,7 @@
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::: Zotero :::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 * {border: 0 !important; }
+
 /*change background color and text color of zotero toolbar and menubar*/
 #zotero-tb, #zotero-toolbar, #navigator-toolbox { background: #323234 !important;
 color: #FFFFFF !important; }
@@ -10,22 +11,21 @@ color: #FFFFFF !important; }
 
 /*change color of menu items in drop down menus back to black*/
 #manage-attachments-menu label, #developer-menu label, #layout-menu label, #note-font-size-menu label, #font-size-menu label, #debug-output-menu label, #new-item label { color: black !important; }
-/*NOT WORKING
 
+/*NOT WORKING
 #navigator-toolbox menu:first-child { color: black !important }
 #new-menu { color: black !important;
 }
+/*Don't know what it does */
+/*#zotero-splitter{ background: red !important;
+color: red !important; }
 */
 
-#zotero-splitter{ background: #323234 !important; }
-
-#zotero-pane{ background: #323234 !important;
-color: #aaa !important; }
-grippy{ opacity: .5 !important; }
-
-#heading_wrapper {
-  color: #fff;
-  background-color: #7E7E7E !important;
+/*Change color of tags*/
+#zotero-pane { background: #323234 !important;
+color: black !important; }
+.zotero-tb-button[type="menu"] {
+  background: red !important;
 }
 
 /*change background and color of collections and items panes*/
@@ -33,7 +33,7 @@ treechildren{ background: #323234 !important;
 color: #FFFFFF !important; }
 
 /*increase spacing between rows in collections and items and add a border to separate panes*/
-/*#zotero-collections-tree { border-right: 1px solid #1d1d1d !important; } */
+/*#zotero-collections-tree { border-right: 1px solid #1d1d1d !important; }*/
 #zotero-collections-tree treechildren::-moz-tree-row { height: 30px !important; }
 
 /*change background and color of collections when hovering*/
@@ -48,7 +48,9 @@ border-bottom: 1px solid #1d1d1d !important; }
 
 /*increase spacing between rows in collections and items*/
 #zotero-items-tree treechildren::-moz-tree-row { height: 30px !important; }
-/*#zotero-items-tree { background-color: #474749 !important; border-right: 1px solid #1d1d1d !important; }*/
+#zotero-items-tree { border-right: 1px solid #1d1d1d !important;
+border-bottom: 1px solid #1d1d1d !important;
+background-color: black !important}
 
 /*change background and color of items when hovering*/
 #zotero-items-tree treechildren::-moz-tree-row(hover) { background: #7E7E7E !important;
@@ -72,33 +74,14 @@ border-right: 1px solid #1d1d1d !important; }
 color: #FFFFFF !important;
 border-bottom: 1px solid #1d1d1d !important; }
 
-/*Change color of tags (clicky items) */
-#zotero-pane .zotero-clicky { color: black !important; }
-
-/*Change color of fields in item pane (clicky items) */
-#zotero-item-pane-content .zotero-clicky { color: white !important; }
-
+/*Change color of fields in item pane (clicky items) when hovering */
 #zotero-item-pane-content .zotero-clicky:hover
 {	color: black !important;
+  border-radius: 0px !important;
 }
 
 /*Correct Minus and plus clicky buttons */
-#zotero-item-pane-content .zotero-clicky-minus {
-	color: transparent !important;
-	padding: 0 !important;
-	margin: 0 5px 0 0 !important;
-	width: 18px;
-	height: 18px;
-}
 #zotero-item-pane-content .zotero-clicky-minus:hover { color: transparent !important; }
-
-#zotero-item-pane-content .zotero-clicky-plus {
-	color: transparent !important;
-	padding: 0 !important;
-	margin: 0 5px 0 0 !important;
-	width: 18px;
-	height: 18px;
-}
 #zotero-item-pane-content .zotero-clicky-plus:hover { color: transparent !important; }
 
 /*tabs in Preferences dialog - well more like all the tabs except the ones I'll specify later*/
