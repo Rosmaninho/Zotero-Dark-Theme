@@ -12,10 +12,9 @@ color: #FFFFFF !important; }
 /*change color of menu items in drop down menus back to black*/
 #manage-attachments-menu label, #developer-menu label, #layout-menu label, #note-font-size-menu label, #font-size-menu label, #debug-output-menu label, #new-item label { color: black !important; }
 
-/*NOT WORKING
-#navigator-toolbox menu:first-child { color: black !important }
-#new-menu { color: black !important;
-}
+/*Fixed New Item in File drop-down showing in white*/
+#navigator-toolbox menu:first-child { color: unset !important; }
+
 /*Don't know what it does */
 /*#zotero-splitter{ background: red !important;
 color: red !important; }
