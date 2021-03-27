@@ -123,6 +123,9 @@ color: #FFFFFF !important; }
 #zotero-item-pane-content tabpanel { background: #474749 !important;
 color: #FFFFFF !important; }
 
+/*fixed color in drop-down tags in tabpanel: see https://css-tricks.com/solved-with-css-dropdown-menus/*/
+#tags-box-container ul li ul { color: black !important; }
+
 #zotero-item-pane-content tab[selected="true"]{ background: #474749 !important;
 border-top: 3px solid #0a84ff !important;}
 
