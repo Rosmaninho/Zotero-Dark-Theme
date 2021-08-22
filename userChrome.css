@@ -12,7 +12,7 @@ color: #FFFFFF !important; }
 /*change color of menu items in drop down menus back to black*/
 #manage-attachments-menu label, #developer-menu label, #layout-menu label, #note-font-size-menu label, #font-size-menu label, #debug-output-menu label, #new-item label { color: black !important; }
 
-/*Fixed New Item in File drop-down showing in white*/
+/*Fixed New Item showing in white*/
 #navigator-toolbox menu:first-child { color: unset !important; }
 
 /*Don't know what it does */
@@ -20,15 +20,32 @@ color: #FFFFFF !important; }
 color: red !important; }
 */
 
-/*Change color of tags*/
+/*Change color of tags selector below collections tree*/
+#zotero-tag-selector-container {  border-bottom: 1px solid #1d1d1d !important;
+  border-top:1px solid #1d1d1d !important;}
+
+#zotero-tag-selector-container input { -moz-appearance: none !important;
+  background: #474749 !important;
+  border: 1px solid #1d1d1d !important;
+  color: white !important; }
+
+.tag-selector-list-container {-moz-appearance: none !important;
+  background: #474749 !important;
+  color: white !important; }
+
+.tag-selector-item:hover  {
+    color: black !important; }
+
+#zotero-tb-search { -moz-appearance: none !important;
+  background-color: #474749 !important;
+  color: white !important;
+  border: 1px solid #1d1d1d !important; }
+
 #zotero-pane { background: #323234 !important;
 color: black !important; }
-.zotero-tb-button[type="menu"] {
-  background: red !important;
-}
 
 /*change background and color of collections and items panes*/
-treechildren{ background: #323234 !important;
+treechildren { background: #323234 !important;
 color: #FFFFFF !important; }
 
 /*increase spacing between rows in collections and items and add a border to separate panes*/
@@ -45,11 +62,12 @@ border-bottom: 1px solid #1d1d1d !important; }
 
 #zotero-collections-tree treechildren::-moz-tree-cell-text(selected) { color: #FFFFFF !important; }
 
+#zotero-collections-tree treechildren { border-right: 1px solid #1d1d1d !important ; }
+
 /*increase spacing between rows in collections and items*/
 #zotero-items-tree treechildren::-moz-tree-row { height: 30px !important; }
 #zotero-items-tree { border-right: 1px solid #1d1d1d !important;
-border-bottom: 1px solid #1d1d1d !important;
-background-color: black !important}
+border-bottom: 1px solid #1d1d1d !important; }
 
 /*change background and color of items when hovering*/
 #zotero-items-tree treechildren::-moz-tree-row(hover) { background: #7E7E7E !important;
@@ -76,12 +94,13 @@ border-bottom: 1px solid #1d1d1d !important; }
 /*Change color of fields in item pane (clicky items) when hovering */
 #zotero-item-pane-content .zotero-clicky:hover
 {	color: black !important;
-  border-radius: 0px !important;
-}
+  border-radius: 0px !important; }
+
+/*change color of buttons, but messes with .zotero-clicky-minus and .zotero-clicky-plus in Tags tab*/
 
 /*Correct Minus and plus clicky buttons */
-#zotero-item-pane-content .zotero-clicky-minus:hover { color: transparent !important; }
-#zotero-item-pane-content .zotero-clicky-plus:hover { color: transparent !important; }
+#zotero-item-pane-content .zotero-clicky-minus:hover { color: transparent !important;}
+#zotero-item-pane-content .zotero-clicky-plus:hover { color: transparent !important;}
 
 /*tabs in Preferences dialog - well more like all the tabs except the ones I'll specify later*/
 tabpanel { color: black !important;
@@ -121,15 +140,23 @@ color: #FFFFFF !important; }
 
 /*tabs in Item pane*/
 #zotero-item-pane-content tabpanel { background: #474749 !important;
-color: #FFFFFF !important; }
+  color: white !important;
+}
 
-/*fixed color in drop-down tags in tabpanel: see https://css-tricks.com/solved-with-css-dropdown-menus/*/
-#tags-box-container ul li ul { color: black !important; }
+/*fixed color in drop-down tags: see https://css-tricks.com/solved-with-css-dropdown-menus/*/
+#tags-box-container ul li ul { background: #7E7E7E !important; color: white !important; }
+#tags-box-container input { -moz-appearance: none !important;
+  background-color: #7E7E7E !important;
+  color: white !important;
+  border: 1px solid #1d1d1d !important;}
 
+/*broken
+/*#zotero-editpane-related, #zotero-editpane-notes { color: white !important; }
+*/
 #zotero-item-pane-content tab[selected="true"]{ background: #474749 !important;
 border-top: 3px solid #0a84ff !important;}
 
-#zotero-item-pane-content tab{ -moz-appearance: none !important;
+#zotero-item-pane-content tab { -moz-appearance: none !important;
 color: #eee !important;
 background: #323234 !important;
 border-top: 0px solid #0a84ff !important;
