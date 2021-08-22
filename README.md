@@ -4,7 +4,7 @@ userChrome.css file for a Zotero dark theme. Suggestions for improvements are we
 Created for Zotero 5.0.92. Windows 10 compatible. Cannot vouch for other OSes.
 
 <p align="center">
-<img src="https://github.com/Rosmaninho/Zotero-Dark-Theme/blob/main/Zotero_dark_theme_polished.png"  width="600" height="333" />
+<img src="https://github.com/Rosmaninho/Zotero-Dark-Theme/blob/main/zotero_refined_2.png"  width="600" height="333" />
 </p>
 
 To use it follow the following steps:
