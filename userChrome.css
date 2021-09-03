@@ -6,6 +6,7 @@
 #zotero-tb, #zotero-toolbar, #navigator-toolbox { background: #323234 !important;
 color: #FFFFFF !important; }
 #zotero-toolbar {border-bottom: 1px solid #1d1d1d !important;}
+
 /*change color of menu items to white*/
 #navigator-toolbox menu { color: white !important }
 
@@ -33,8 +34,13 @@ color: red !important; }
   background: #474749 !important;
   color: white !important; }
 
-.tag-selector-item:hover  {
+/* for 5.0.97 pre-release
+.tag-selector-item:hover { background: #BBCEF1 !important;
     color: black !important; }
+
+.tag-selector-item {
+  background: #474749 !important;
+color:white !important; }*/
 
 #zotero-tb-search { -moz-appearance: none !important;
   background-color: #474749 !important;
@@ -48,6 +54,49 @@ color: black !important; }
 treechildren { background: #323234 !important;
 color: #FFFFFF !important; }
 
+/*for 5.0.97 pre-release*/
+/*
+.virtualized-table {background: #323234 !important; color: #FFFFFF !important;}
+.virtualized-table .row.selected {background: #474749 !important; border: 0 !important;
+border-bottom: 1px solid #1d1d1d !important;}
+.virtualized-table:not(:focus) .row.selected {background: #474749 !important; border: 0 !important;
+border-bottom: 1px solid #1d1d1d !important;}
+.row:hover { background: #7E7E7E !important;
+color: #FFFFFF !important; border: 0 !important; }
+}
+
+#zotero-item-pane-content {background: #323234 !important; color: #FFFFFF !important;}
+
+.tabs {-moz-appearance: none !important;
+  background: #323234 !important;
+  color: #FFFFFF !important;
+border: 0px solid red !important;}
+
+.tab {-moz-appearance: none !important;
+color: #7E7E7E !important;
+background: #323234 !important;
+}
+.tab:hover { background: #7E7E7E !important;
+color: #FFFFFF !important; border: 0 !important; }
+}
+.tab:not(:focus){ -moz-appearance: none !important;
+color: #7E7E7E !important;
+background: #323234 !important;
+border-top: 0px solid #0a84ff !important;
+border-left: 0px solid rgba(127,127,127,0.2) !important;
+border-right: 1px solid #1d1d1d !important;
+border-radius: 0px !important;
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important; }
+.tab.selected:not(.highlighted){ color: #FFFFFF !important;
+  background: #323234 !important;
+  border-top: 3px solid #0a84ff !important;
+  border-left: 0px solid rgba(127,127,127,0.2) !important;
+  border-right: 1px solid #1d1d1d !important;
+  border-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;  }
+*/
 /*increase spacing between rows in collections and items and add a border to separate panes*/
 /*#zotero-collections-tree { border-right: 1px solid #1d1d1d !important; }*/
 #zotero-collections-tree treechildren::-moz-tree-row { height: 30px !important; }
@@ -63,7 +112,8 @@ border-bottom: 1px solid #1d1d1d !important; }
 #zotero-collections-tree treechildren::-moz-tree-cell-text(selected) { color: #FFFFFF !important; }
 
 #zotero-collections-tree treechildren { border-right: 1px solid #1d1d1d !important ; }
-
+/*for 5.0.97 pre-release*/
+#zotero-collections-tree  .virtualized-table {border-right: 1px solid #1d1d1d !important ; }
 /*increase spacing between rows in collections and items*/
 #zotero-items-tree treechildren::-moz-tree-row { height: 30px !important; }
 #zotero-items-tree { border-right: 1px solid #1d1d1d !important;
@@ -85,6 +135,17 @@ border-bottom: 1px solid #1d1d1d !important; }
 color: #FFFFFF !important;
 border-bottom: 1px solid #1d1d1d !important;
 border-right: 1px solid #1d1d1d !important; }
+
+/*fix columns field selector for 5.0.97 pre-release*/
+/*#zotero-items-tree .virtualized-table-header { -moz-appearance: none !important;
+  background: #474749 !important;
+color: #FFFFFF !important;
+border-bottom: 1px solid #1d1d1d !important;
+border-right: 1px solid #1d1d1d !important; }
+
+#zotero-items-tree .virtualized-table-header .cell:hover { background: #7E7E7E !important;
+color: #FFFFFF !important;}
+*/
 
 .treecol-image { -moz-appearance: none !important;
   background: #474749 !important;
