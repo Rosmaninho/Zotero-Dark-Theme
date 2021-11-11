@@ -199,6 +199,9 @@ color: #FFFFFF !important; }
 /*change color of retraction details background*/
 #retraction-details { background: #7f0000 !important; }
 
+/*fix tab background area for 5.0.97 pre-release*/
+#zotero-item-pane-content {background: #323234 !important; }
+
 /*tabs in Item pane*/
 #zotero-item-pane-content tabpanel { background: #474749 !important;
   color: white !important;
