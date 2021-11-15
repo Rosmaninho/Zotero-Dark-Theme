@@ -119,6 +119,9 @@ border-bottom: 1px solid #1d1d1d !important; }
 #zotero-items-tree { border-right: 1px solid #1d1d1d !important;
 border-bottom: 1px solid #1d1d1d !important; }
 
+/* THeme static pages in 5.0.97 pre-release */
+#zotero-items-tree {color: #ffffff; background: #323234 !important; }
+
 /*change background and color of items when hovering*/
 #zotero-items-tree treechildren::-moz-tree-row(hover) { background: #7E7E7E !important;
 color: #FFFFFF !important; border: 0 !important; }
@@ -198,6 +201,9 @@ color: #FFFFFF !important; }
 
 /*change color of retraction details background*/
 #retraction-details { background: #7f0000 !important; }
+
+/*fix tab background area for 5.0.97 pre-release*/
+#zotero-item-pane-content {background: #323234 !important; }
 
 /*tabs in Item pane*/
 #zotero-item-pane-content tabpanel { background: #474749 !important;
