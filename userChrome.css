@@ -111,7 +111,7 @@ border-bottom: 1px solid #1d1d1d !important; }
 
 /*change highlight color of collections containing selected items on Ctrl(Win) or Option/Alt(Mac/Linux) press */
 /*Set by setHighlightedRows() and getRowProperties() in collectionTreeView.js)*/
-#zotero-collections-tree treechildren::-moz-tree-row(highlighted){ background: #1B456A !important;}
+#zotero-collections-tree treechildren::-moz-tree-row(highlighted){ background: #7E7E7E !important;}
 
 #zotero-collections-tree treechildren::-moz-tree-cell-text(selected) { color: #FFFFFF !important; }
 
