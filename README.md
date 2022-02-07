@@ -41,3 +41,20 @@ If you wish to explore for additional elements to alter:
 5 - Look at ALL .css files in this folder; 
 
 6 - Start testing different pieces of code to change the defaults in the userchrome.css file.
+
+To implemente a dark theme in the Note Editor follow the following steps:
+
+1 - Start Zotero;
+
+2 - Go to Preferences -> Advanced -> Config Editor;
+
+3 - Select "I accept the risks!";
+
+4 - Search extensions.zotero.note.css and double-click it;
+
+5 - Insert the string in the Note_editor_css.txt file;
+
+6 - click "OK" or close the dialog box;
+
+7 - Restart Zotero.
+    
