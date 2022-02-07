@@ -1,0 +1,48 @@
+body {
+color: white;
+max-width: 35em;
+margin: 0 auto;
+padding-left: 20px;
+padding-right: 20px;
+background-color: #474749;
+}
+
+h1 {
+color: white;
+font-size: 1.6em;
+padding-bottom: none;
+}
+
+h2 {
+color: white;
+font-size: 1.4em;
+font-weight: bold;
+padding-bottom: none;
+border-bottom: none;
+}
+
+h3 {
+color: white;
+font-size: 1.2em;
+}
+
+p {
+text-indent: 1.75em;
+}
+
+ul,
+ol {
+padding-left: 1.75em;
+}
+
+blockquote {
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 0;
+padding-left: 1.55em;
+border-left: 3px solid darkgrey;
+color: white (255, 248, 248);
+}
+blockquote p {
+text-indent: 0;
+}
