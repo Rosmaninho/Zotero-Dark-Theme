@@ -24,9 +24,7 @@ I  encourage everyone to play around with this and try to improve on it and them
 
 3 - the  menus colors,
 
-4 - the New Item sub-menu in the File drop down menu (it assumes the white color of the menu categories),
-
-5 - the sub-categories in the Preferences dialog. I am not satisfied with the preferences dialog but it's the best I could make it.
+4 - the sub-categories in the Preferences dialog. I am not satisfied with the preferences dialog but it's the best I could make it.
 
 
 If you wish to explore for additional elements to alter:
