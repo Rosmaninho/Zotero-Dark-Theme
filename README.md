@@ -42,7 +42,7 @@ If you wish to explore for additional elements to alter:
 
 6 - Start testing different pieces of code to change the defaults in the userchrome.css file.
 
-To implemente a dark theme in the Note Editor follow the following steps:
+To implement a dark theme in the Note Editor (credit to 10cks) follow the following steps:
 
 1 - Start Zotero;
 
