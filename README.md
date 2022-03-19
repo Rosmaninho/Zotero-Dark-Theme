@@ -21,7 +21,7 @@ To use it follow the following steps:
 
 I  encourage everyone to play around with this and try to improve on it and theme things that I didn't manage to. These include the following elements:
 
-1 - Srollbars (that is usually done via userContent.css in Firefox but it doesn't work in Zotero), 
+1 - Scrollbars (that is usually done via userContent.css in Firefox but it doesn't work in Zotero), 
 
 2 - New PDF reader,
 
