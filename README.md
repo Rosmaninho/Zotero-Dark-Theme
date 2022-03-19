@@ -1,7 +1,8 @@
 # Zotero-Dark-Theme
 userChrome.css file for a Zotero dark theme. Suggestions for improvements are welcome.
 
-Created for Zotero 5.0.92. Windows 10 compatible. Cannot vouch for other OSes.
+New version available for Zotero 6.
+Created for Zotero 5.0.92. Windows 10 compatible.
 
 <p align="center">
 <img src="https://github.com/Rosmaninho/Zotero-Dark-Theme/blob/main/zotero_refined_2.png"  width="600" height="333" />
@@ -20,11 +21,15 @@ To use it follow the following steps:
 
 I  encourage everyone to play around with this and try to improve on it and theme things that I didn't manage to. These include the following elements:
 
-1 -  couldn't theme the scrollbars (even tried creating a userContent.css  like in Firefox but it didn't work), 
+1 - Srollbars (that is usually done via userContent.css in Firefox but it doesn't work in Zotero), 
 
-3 - the  menus colors,
+2 - New PDF reader,
 
-4 - the sub-categories in the Preferences dialog. I am not satisfied with the preferences dialog but it's the best I could make it.
+3 - Note editor (in Zotero 6),
+
+3 - Menu colors,
+
+4 - Sub-categories in the Preferences dialog. Not satisfied with the preferences dialog but it's the best I could make it.
 
 
 If you wish to explore for additional elements to alter:
@@ -40,7 +45,7 @@ If you wish to explore for additional elements to alter:
 
 6 - Start testing different pieces of code to change the defaults in the userchrome.css file.
 
-To implement a dark theme in the Note Editor (credit to 10cks) follow the following steps:
+To implement a dark theme in the Note Editor in Zotero 5 (credit to 10cks) follow the subsequent steps:
 
 1 - Start Zotero;
 
