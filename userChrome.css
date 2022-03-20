@@ -40,7 +40,7 @@ color: red !important; }
 
 .tag-selector-item {
   background: #474749 !important;
-color:white !important; }
+color:white ; }
 
 #zotero-tb-search { -moz-appearance: none !important;
   background-color: #474749 !important;
