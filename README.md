@@ -12,7 +12,7 @@ To use it follow the following steps:
 
 1. Go to your user Profile folder 
    * Windows users: `C:\Users\User_name\AppData\Roaming\Zotero\Zotero\Profiles\user_profile.default\`
-   * Linux users: `~/.zotero/zotero/XXXXXXXX.default/`
+   * Linux (Flatpak) users: `~/.zotero/zotero/XXXXXXXX.default/`
 2. Create a `chrome` folder
 3. Place the `userChrome.css` file in there
 4. Start Zotero and enjoy
