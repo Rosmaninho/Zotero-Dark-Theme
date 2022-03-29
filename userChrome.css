@@ -34,7 +34,7 @@ color: red !important; }
   background: #474749 !important;
   color: white !important; }
 
-/* for 5.0.97 pre-release*/
+/* for Zotero 6*/
 .tag-selector-item:hover { background: #BBCEF1 !important;
     color: black !important; }
 
@@ -54,7 +54,7 @@ color: black !important; }
 treechildren { background: #323234 !important;
 color: #FFFFFF !important; }
 
-/*for 5.0.97 pre-release*/
+/*for Zotero 6*/
 .virtualized-table {background: #323234 !important; color: #FFFFFF !important;}
 .virtualized-table .row.selected {background: #474749 !important; border: 0 !important;
 border-bottom: 1px solid #1d1d1d !important;}
@@ -96,8 +96,9 @@ border-bottom-right-radius: 0px !important; }
   border-bottom-left-radius: 0px !important;
   border-bottom-right-radius: 0px !important;  }
 
+/*collections tree background*/
+#zotero-collections-tree { color: #ffffff; background: #323234 !important; }
 /*increase spacing between rows in collections and items and add a border to separate panes (not working on zotero 6)*/
-/*#zotero-collections-tree { border-right: 1px solid #1d1d1d !important; }*/
 /*#zotero-collections-tree treechildren::-moz-tree-row { height: 30px !important; }
 .virtualized-table { rowHeight: 30px !important; } */
 /*change background and color of collections when hovering*/
@@ -116,7 +117,8 @@ border-bottom: 1px solid #1d1d1d !important; }
 /*increase spacing between rows in collections and items (-moz-tree-row not working in zotero 6)*/
 /*#zotero-items-tree treechildren::-moz-tree-row { height: 30px !important; }*/
 #zotero-items-tree { border-right: 1px solid #1d1d1d !important;
-border-bottom: 1px solid #1d1d1d !important; }
+border-bottom: 1px solid #1d1d1d !important; 
+color: #ffffff; background: #323234 !important; }
 
 /*change background and color of items when hovering*/
 #zotero-items-tree treechildren::-moz-tree-row(hover) { background: #7E7E7E !important;
