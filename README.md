@@ -45,3 +45,5 @@ To implement a dark theme in the Note Editor in Zotero 5 (credit to 10cks) follo
 6. Click "OK" or close the dialog box
 7. Restart Zotero.
  
+ Dark theme compatible with MacOS is available as a fork maintained by yiktungho:
+ https://github.com/yiktungho/Zotero-Dark-Theme/tree/mac-patch
