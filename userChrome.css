@@ -55,7 +55,7 @@ treechildren { background: #323234 !important;
 color: #FFFFFF !important; }
 
 /*for Zotero 6*/
-.virtualized-table {background: #323234 !important; color: #FFFFFF !important;}
+.virtualized-table .row{background: #323234 !important; color: #FFFFFF !important;}
 .virtualized-table .row.selected {background: #474749 !important; border: 0 !important;
 border-bottom: 1px solid #1d1d1d !important;}
 .virtualized-table:not(:focus) .row.selected {background: #474749 !important; border: 0 !important;
