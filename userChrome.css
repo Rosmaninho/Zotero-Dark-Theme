@@ -65,8 +65,6 @@ border-bottom: 1px solid #1d1d1d !important;}
 color: #FFFFFF !important; border: 0 !important; }
 }
 
-#zotero-item-pane-content {background: #323234 !important; color: #FFFFFF !important;}
-
 .tabs {-moz-appearance: none !important;
   background: #474749 !important;
   color: #FFFFFF !important;
@@ -81,6 +79,7 @@ border-left: 1px solid rgba(127,127,127) !important;
 .tab:hover { background: #7E7E7E !important;
 color: #FFFFFF !important; border: 0 !important; }
 }
+
 .tab:not(:focus){ -moz-appearance: none !important;
 color: #7E7E7E !important;
 background: #323234 !important;
@@ -90,6 +89,7 @@ border-right: 0px solid #1d1d1d !important;
 border-radius: 0px !important;
 border-bottom-left-radius: 0px !important;
 border-bottom-right-radius: 0px !important; }
+
 .tab.selected:not(.highlighted){ color: #FFFFFF !important;
   background: #323234 !important;
   border-top: 3px solid #0a84ff !important;
@@ -165,7 +165,6 @@ border-right: 1px solid #1d1d1d !important; }
 #zotero-items-tree .virtualized-table-header .cell:hover { background: #7E7E7E !important;
 color: #FFFFFF !important;}
 
-
 .treecol-image { -moz-appearance: none !important;
   background: #474749 !important;
 color: #FFFFFF !important;
@@ -186,10 +185,11 @@ border-bottom: 1px solid #1d1d1d !important; }
 tabpanel { color: black !important;
 background: #7E7E7E !important; }
 
-tab[selected="true"]{ color: black !important;
-background: white !important; }
+tab[selected="true"] { color: black !important;
+background: #7E7E7E !important;
+border-top: 3px solid #0a84ff !important; }
 
-tab{ -moz-appearance: none !important;
+tab { -moz-appearance: none !important;
 color: #eee !important;
 background: #474749 !important;
 border-top: 0px solid black !important;
@@ -199,7 +199,7 @@ border-radius: 0px !important;
 border-bottom-left-radius: 0px !important;
 border-bottom-right-radius: 0px !important; }
 
-tab:hover{ color: black !important;
+tab:hover { color: black !important;
 background: #E0E8F6 !important;
 box-shadow: inset 0px 0px 0px !important;
 border-radius: 0px 0px 0 0 !important; }
@@ -209,16 +209,14 @@ border-radius: 0px 0px 0 0 !important; }
   color: #FFFFFF !important;
   border: 0 !important; }
 
-/*#zotero-item-pane-content > groupbox { border: 0 !important; background: #323234 !important;
-color: #FFFFFF !important; }*/
-
 #zotero-item-pane-content > groupbox > .groupbox-body { border: 0 !important; background: #323234 !important;
 color: #FFFFFF !important; }
 
 /*change color of retraction details background*/
 #retraction-details { background: #7f0000 !important; }
 /*background of item-pane-content (Zotero 6)*/
-#zotero-item-pane-content { background: #323234 !important; }
+.zotero-view-tabbox, .zotero-item-pane-content { background: #323234 !important; color: #FFFFFF !important; }
+
 /*tabs in Item pane*/
 #zotero-item-pane-content tabpanel { background: #474749 !important;
   color: white !important; }
@@ -230,9 +228,26 @@ color: #FFFFFF !important; }
   color: white !important;
   border: 1px solid #1d1d1d !important;}
 
-/*broken
-/*#zotero-editpane-related, #zotero-editpane-notes { color: white !important; }
-*/
+.zotero-view-tabbox tab[selected="true"]{ background: #474749 !important;
+border-top: 3px solid #0a84ff !important;}
+
+.zotero-view-tabbox tab { -moz-appearance: none !important;
+color: #eee !important;
+background: #323234 !important;
+border-top: 0px solid #0a84ff !important;
+border-left: 0px solid rgba(127,127,127,0.2) !important;
+border-right: 1px solid #1d1d1d !important;
+border-radius: 0px !important;
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important; }
+
+.zotero-view-tabbox tab:hover{ color: #FFFFFF !important;
+background: #7E7E7E !important; }
+
+.zotero-view-tabbox tabpanel { background: #474749 !important;
+  color: #FFFFFF !important; }
+  .zotero-view-tabbox .zotero-clicky:hover { color: black !important; }
+
 #zotero-item-pane-content tab[selected="true"]{ background: #474749 !important;
 border-top: 3px solid #0a84ff !important;}
 
@@ -264,6 +279,9 @@ border-radius: 0px 0px 0 0 !important; }
 	border: 1px solid transparent;
 	background-color: transparent;
 }
+
+#item-type-menu:hover {	color: black !important; }
+
 /*define color of date-field-status*/
 #zotero-date-field-status
 {
