@@ -99,6 +99,21 @@ border-bottom-right-radius: 0px !important; }
   border-bottom-left-radius: 0px !important;
   border-bottom-right-radius: 0px !important;  }
 
+/*PDF reader notes list*/
+.notes-list-container { background: #323234 !important;
+color: #ffffff !important; }
+
+.note-row {background: #474749 !important;
+  color: #ffffff !important; }
+
+.note-row .date {color: #ffffff !important; }
+
+.more-row { background: #474749 !important;
+  color: #ffffff !important; }
+
+.note-row:hover, .more-row:hover {background: #7E7E7E !important;
+color: #FFFFFF !important; }
+
 /*collections tree background*/
 #zotero-collections-tree { color: #ffffff; background: #323234 !important; }
 /*increase spacing between rows in collections and items and add a border to separate panes (not working on zotero 6)*/
