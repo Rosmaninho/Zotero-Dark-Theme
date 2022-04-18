@@ -255,7 +255,7 @@ border-radius: 0px 0px 0 0 !important; }
 }
 
 /*preferences dialog*/
-#zotero-prefpane-general, #zotero-prefpane-sync, #zotero-prefpane-export, #zotero-prefpane-advanced-keys-tab, #wordProcessors, #zotero-quickCopy-format, #sync-reset-form { color: black !important;
+#zotero-prefpane-general, #zotero-prefpane-sync, #zotero-prefpane-export, #zotero-prefpane-advanced-keys-tab, #wordProcessors, #zotero-quickCopy-format, #sync-reset-form, #zotero-export-options { color: black !important;
 background: #7E7E7E !important; }
 #zotero-prefpane-general title { background: #474749 !important;
 color: #FFFFFF !important; }
