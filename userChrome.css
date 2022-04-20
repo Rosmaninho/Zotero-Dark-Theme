@@ -3,7 +3,7 @@
 * {border: 0 !important; }
 
 /*change background color and text color of zotero toolbar and menubar*/
-#zotero-tb, #zotero-toolbar, #navigator-toolbox { background: #323234 !important;
+#zotero-tb, #zotero-toolbar, #navigator-toolbox, #tab-bar-container { background: #323234 !important;
 color: #FFFFFF !important; }
 #zotero-toolbar {border-bottom: 1px solid #1d1d1d !important;}
 
