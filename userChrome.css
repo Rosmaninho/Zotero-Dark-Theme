@@ -59,25 +59,27 @@ border-bottom: 1px solid #1d1d1d !important;}
 .row:hover { background: #7E7E7E !important;
 color: #FFFFFF !important; border: 0 !important; }
 
-.tabs {-moz-appearance: none !important;
-  background: #474749 !important;
+
+.tabs {  background: #474749 !important;
   color: #FFFFFF !important;
-border: 0px solid red !important;}
+border: 0px !important; }
 
 .tab {-moz-appearance: none !important;
 color: #7E7E7E !important;
 background: #474749 !important;
-border-left: 1px solid rgba(127,127,127) !important; }
+border-left: 0px solid rgba(127,127,127) !important;
+border-right: 0px solid rgba(127,127,127) !important;}
 
 .tab:hover { background: #7E7E7E !important;
-color: #FFFFFF !important; border: 0 !important; }
+color: #FFFFFF !important;
+border: 0px !important; }
 
 .tab:not(:focus){ -moz-appearance: none !important;
-color: #7E7E7E !important;
-background: #323234 !important;
+color: #7E7E7E ;
+background: #474749 ;
 border-top: 0px solid #0a84ff !important;
-border-left: 0px solid rgba(127,127,127) !important;
-border-right: 0px solid #1d1d1d !important;
+border-left: 1px solid rgba(127,127,127) !important;
+border-right: 0px solid rgba(127,127,127) !important;
 border-radius: 0px !important;
 border-bottom-left-radius: 0px !important;
 border-bottom-right-radius: 0px !important; }
@@ -89,7 +91,7 @@ border-bottom-right-radius: 0px !important; }
   border-right: 0px solid #1d1d1d !important;
   border-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
-  border-bottom-right-radius: 0px !important;  }
+  border-bottom-right-radius: 0px !important; }
 
 .tab-close:hover { background: #7E7E7E !important; }
 
