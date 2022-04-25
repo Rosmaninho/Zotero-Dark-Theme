@@ -37,6 +37,12 @@ color: #FFFFFF !important; }
   background: #474749 !important;
 color:white ; }
 
+.tag-selector-item.selected { background: #7E7E7E !important;
+    font-weight: bold !important; }
+
+.tag-selector-item.selected:hover { background: #BBCEF1 !important;
+    font-weight: bold !important; }
+
 #zotero-tb-search { -moz-appearance: none !important;
   background-color: #474749 !important;
   color: white !important;
