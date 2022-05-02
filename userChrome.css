@@ -177,6 +177,8 @@ border-bottom: 1px solid #1d1d1d !important; }
 {	color: black !important;
   border-radius: 0px !important; }
 
+#better-bibtex-citekey-display { color: white !important; }
+
 /*change color of buttons, but messes with .zotero-clicky-minus and .zotero-clicky-plus in Tags tab*/
 
 /*Correct Minus and plus clicky buttons */
