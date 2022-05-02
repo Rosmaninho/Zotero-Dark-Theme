@@ -289,7 +289,8 @@ border-radius: 0px 0px 0 0 !important; }
 	border: 1px solid transparent;
 	background-color: transparent; }
 
-#item-type-menu:hover {	color: black !important; }
+#item-type-menu:hover {	color: black !important; 
+background: #BBCEF1 !important; }
 
 /*define color of date-field-status*/
 #zotero-date-field-status { color: #ffffff !important;
