@@ -3,8 +3,17 @@
 * {border: 0 !important; }
 
 /*change background color and text color of zotero toolbar and menubar*/
-#zotero-tb, #zotero-toolbar, #navigator-toolbox, #tab-bar-container { background: #323234 !important;
-color: #FFFFFF !important; }
+#zotero-tb, #zotero-toolbar, #navigator-toolbox, #tab-bar-container {
+  -moz-appearance: none;
+  background: #323234 !important;
+  color: white !important;
+}
+
+#toolbar-menubar {
+  -moz-appearance: none;
+  background-color: #323234;
+}
+
 #zotero-toolbar {border-bottom: 1px solid #1d1d1d !important;}
 
 /*change color of menu items to white*/
@@ -14,7 +23,7 @@ color: #FFFFFF !important; }
 #manage-attachments-menu label, #developer-menu label, #layout-menu label, #note-font-size-menu label, #font-size-menu label, #debug-output-menu label, #new-item label { color: black !important; }
 
 /*Fixed New Item showing in white*/
-#navigator-toolbox menu:first-child { color: unset !important; }
+#navigator-toolbox menu:first-child { background: unset !important; }
 
 /*Change color of tags selector below collections tree*/
 #zotero-tag-selector-container {  border-bottom: 1px solid #1d1d1d !important;
